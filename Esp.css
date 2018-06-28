@@ -6,6 +6,7 @@
 }
 
 
+
 footer
 {
     font-family: Raleway;
@@ -17,15 +18,14 @@ footer
     background: #FAF6F6;
 }
 
-header h1
-{
-    color: #AAA;
-    font-size: 40px;
-    font-weight: lighter;
-    margin-bottom: 5px;
+
+
+.row {
+   padding-top:150px;
 }
-
-
+h1 {
+   font-size: 3em;
+}
 
 footer span
 {
@@ -122,4 +122,7 @@ body {
   .btn:hover{
     background-color: #FAF6F6;
     color: #916953;
+    border-color: #FCDDF2;
   }
+
+  
