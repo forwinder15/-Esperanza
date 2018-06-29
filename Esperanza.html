@@ -4,14 +4,50 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script type="text/javascript">
 
+/* Open when someone clicks on the span element */
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+
+$('.carousel').carousel();
+</script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
      <link rel="stylesheet" href="Esp.css">
-     <head>
+
       <title>Esperanza</title>
      </head>
 <body>
+
+  <!-- The overlay -->
+  <div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="Esperanza.html">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">REQUESTS</a>
+      <a href="#">RESOURCES</a>
+      <a href="contact.html">CONTACT</a>
+    </div>
+
+  </div>
+
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <span onclick="openNav()">
+    <div id="menu" class=""></div>
+  <div id="menu" class=""></div>
+<div id="menu" class=""></div> </span>
 
 
     <div class="jumbotron">
@@ -73,7 +109,7 @@
     </footer>
 
 
-    <script src="esp.js"></script>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
