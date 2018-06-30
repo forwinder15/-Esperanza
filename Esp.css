@@ -19,7 +19,7 @@
 
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: #FCDDF2;
     margin: 6px 0;
 
 }
@@ -27,6 +27,8 @@
 #hamburger {
   position: fixed!important;
   z-index: 999;
+  padding-left: 30px;
+
 
 }
 
