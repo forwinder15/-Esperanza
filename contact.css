@@ -10,7 +10,7 @@ div.container
 
 div.container a
 {
-    color: #CF8E80;
+    color: black;
     text-decoration: none;
     font: 20px Raleway;
     margin: 0px 10px;
@@ -109,7 +109,8 @@ max-width: 400px;
   background: #F9F9F9;
   padding: 25px;
   margin: 150px 0;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 20px;
+  box-shadow: 20px 20px 30px -6px black;
 }
 
 #contact h3 {
@@ -208,3 +209,7 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
+
+#navv{
+  border-radius: 20px;
+  box-shadow: 20px 20px 30px -6px black;
