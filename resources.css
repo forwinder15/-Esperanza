@@ -7,7 +7,8 @@ body:before{
 	bottom: 0;
 	width: 100%;
 	z-index: -1;
-	background: linear-gradient(to right bottom, #FAF6F6, #CF8E80 75%);
+	background: url(Img/prayer2.jpg);
+  opacity: .9;
 }
 
 
@@ -18,6 +19,7 @@ div.container
     margin: 0 auto;
 	padding: 10em 3em;
 	text-align: center;
+
 }
 
 div.container a
@@ -77,18 +79,23 @@ div.circleBehind a:hover:after
 }
 
 
+
 #navv, #firstContainer, #secondContainer{
   border-radius: 20px;
   box-shadow: 20px 20px 30px -6px black;
   margin-bottom:30px;
+  opacity: .95;
 
 }
 
- #nav{
-   background: url(https://pixabay.com/get/e837b00f28f6083ed1534705fb0938c9bd22ffd41cb211459cf4c278a0/book-1210029_1920.jpg) no-repeat center center / cover;
-opacity: 0.2;
+#secondContainer {
+  width:90%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #FCDDF2;
 
- }
+}
+
 
 
 .img-responsive {
@@ -97,6 +104,7 @@ max-width: 85%;
 height: auto;
 border-radius: 20px;
 margin-bottom: 20px;
+
 
 }
 
