@@ -24,6 +24,7 @@ div.container a
 .blue
 {
     background: #FCDDF2;
+    opacity: 0.8;
 }
 
 
@@ -87,7 +88,7 @@ body {
   font-size: 12px;
   line-height: 30px;
   color: #CF8E80;
-  background: #916953;
+  background: url(Img/prayer2.jpg);;
 }
 
 .container-float {
