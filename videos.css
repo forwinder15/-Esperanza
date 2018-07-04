@@ -1,4 +1,7 @@
-
+#logo {
+  width:50%;
+  height: 150px;
+}
 
 body:before{
 	background: linear-gradient(to right bottom, #FAF6F6, #CF8E80 75%);
@@ -81,6 +84,7 @@ div.circleBehind a:hover:after
 
 
 #navv {
-  border-radius: 20px;
+	border-radius: 20px;
   box-shadow: 20px 20px 30px -6px black;
+  padding: 50px;
 }

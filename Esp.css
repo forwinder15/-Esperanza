@@ -2,12 +2,27 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 
 #nav{
+  margin-top:30px;
+  margin-bottom: -150px;
   border-radius: 20px;
   box-shadow: 20px 20px 30px -6px black;
+  padding-top:20px;
+  padding-bottom: 100px;
+}
+
+
+
+#logo {
+  width:50%;
+  height: 150px;
 }
 
 .carousel {
-  margin-top: 30px;
+  margin-top: -200px;
+  width:90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .carousel-inner{
@@ -139,7 +154,7 @@ div.container a
 .blue
 {
     background: #FCDDF2;
-    opacity: 0.8;
+    opacity: 0.95;
 }
 
 
