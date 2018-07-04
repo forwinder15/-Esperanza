@@ -78,9 +78,14 @@ div.circleBehind a:hover:after
     transform: translateX(-50%) translateY(-50%) scale(1.3);
 }
 
+#navv{
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
 
 
-#navv, #firstContainer, #secondContainer{
+#navv, #secondContainer{
   border-radius: 20px;
   box-shadow: 20px 20px 30px -6px black;
   margin-bottom:30px;
@@ -92,11 +97,41 @@ div.circleBehind a:hover:after
   width:90%;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #FCDDF2;
-
 }
 
-
+#thirdContainer{
+  width:25%;
+  float:left;
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: 5.5%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 20px 20px 30px -6px black;
+}
+#fourthContainer{
+  width:25%;
+  float: left;
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: 7%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 20px 20px 30px -6px black;
+}
+#fifthContainer{
+  display: flex;
+  flex-wrap: wrap;
+  width:25%;
+  float: left;
+  margin-left: 7%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 20px 20px 30px -6px black;
+}
 
 .img-responsive {
 display:block center;
