@@ -1,10 +1,21 @@
+
+
+
+
+#topBackground {
+  background-color: #916953;
+  width:100%;
+  height:185px;
+}
+
 #logo {
   width:50%;
   height: 150px;
 }
 
+
 body:before{
-	background: linear-gradient(to right bottom, #FAF6F6, #CF8E80 75%);
+	background: #CF8E80;
 	bottom: 0;
 	content:'';
 	position: fixed;
@@ -41,7 +52,7 @@ div.container a
 .blue
 {
     background: #FCDDF2;
-		opacity: 0.8;
+		opacity: 0.95;
 }
 
 
@@ -86,5 +97,42 @@ div.circleBehind a:hover:after
 #navv {
 	border-radius: 20px;
   box-shadow: 20px 20px 30px -6px black;
-  padding: 50px;
+  padding-top:20px;
+  padding-bottom:100px;
+  margin-top: -155px;
+}
+
+#devoTitle {
+  padding: 30px;
+  margin-bottom: 30px;
+  font: 30px Raleway;
+  text-decoration: none;
+  color: #FCDDF2;
+  background-color: #CF8E80;
+  text-align: center;
+
+}
+
+.col {
+  margin:auto;
+}
+
+#fb {
+  margin: 1.2%;
+
+}
+
+#v1,#v2,#v3, #v4, #v5, #v6, #v7, #v8 {
+  padding:0;
+  box-shadow: 20px 20px 30px -6px black;
+  margin-bottom: 30px;
+  margin:40px 20px;
+  background-color: black;
+
+
+
+}
+
+h1 {
+   font-size: 2em;
 }

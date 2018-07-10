@@ -1,4 +1,5 @@
 
+
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 
 #nav{
@@ -200,7 +201,8 @@ div.circleBehind a:hover:after
 
 body {
 
-   background-color: #916953;
+  background: url(https://media.swncdn.com/cms/CW/faith/36496-praying-together-1200.1200w.tn.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 .jumbotron {
